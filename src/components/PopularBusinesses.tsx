@@ -221,9 +221,15 @@ const PopularBusinesses = () => {
                       ) : 'Price on request'}
                     </div>
                     <div className="flex items-center gap-2">
-                      <Facebook className="w-4 h-4 text-blue-600" />
-                      <Instagram className="w-4 h-4 text-pink-600" />
-                      <MessageCircle className="w-4 h-4 text-green-600" />
+                      <div className="w-8 h-8 rounded-full border border-border shadow-sm flex items-center justify-center bg-background hover:shadow-md transition-shadow">
+                        <Facebook className="w-4 h-4 text-blue-600" />
+                      </div>
+                      <div className="w-8 h-8 rounded-full border border-border shadow-sm flex items-center justify-center bg-background hover:shadow-md transition-shadow">
+                        <Instagram className="w-4 h-4 text-pink-600" />
+                      </div>
+                      <div className="w-8 h-8 rounded-full border border-border shadow-sm flex items-center justify-center bg-background hover:shadow-md transition-shadow">
+                        <MessageCircle className="w-4 h-4 text-green-600" />
+                      </div>
                     </div>
                   </div>
                   
